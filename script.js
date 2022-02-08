@@ -275,3 +275,7 @@ const myAdverb = "quickly";
 const wordBlanks = myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb; // Change this line
 // Only change code above this line
 
+function greet() {
+	return "hello world!";
+}
+
