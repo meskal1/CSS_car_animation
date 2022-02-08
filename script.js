@@ -172,3 +172,8 @@ const getTea = (numOfCups) => {
 const tea4TeamFCC = getTea(40);
 // Only change code above this line
 
+const ourDecimal = 5.7;
+const myDecimal = 5.7
+// Only change code below this line
+
+const product = 2.0 * 2.5;
