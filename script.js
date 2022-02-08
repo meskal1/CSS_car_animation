@@ -279,3 +279,6 @@ function greet() {
 	return "hello world!";
 }
 
+// Only change code below this line
+const myArray = ['1', 2];
+
