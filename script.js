@@ -285,3 +285,6 @@ const myArray = ['1', 2];
 // Only change code below this line
 const myArray = [[], []];
 
+const myArray = [50, 60, 70];
+const myData = myArray[0];
+
