@@ -58,7 +58,7 @@ footer {
   width: 100vw;
   height: 100vh;
   z-index: 20;
-  animation: fin-end 5s linear normal forwards;
+  animation: fin-end 3s linear forwards;
 }
 @keyframes fin-end {
   0% {
