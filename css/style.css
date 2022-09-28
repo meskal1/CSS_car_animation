@@ -46,9 +46,10 @@ body {
   flex-direction: column;
   overflow: hidden;
 }
-.header {
+.text {
+  position: absolute;
+  top: 80px;
   text-align: center;
-  padding-top: 150px;
   font-size: 25px;
 }
 footer {
@@ -237,10 +238,14 @@ footer {
   border: 1px solid white;
 }
 .disk__circle {
-  display: inline-block;
-  position: relative;
-  top: -43px;
-  left: -18px;
+  /* display: inline-block; */
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* top: -43px;
+  left: -18px; */
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -268,17 +273,20 @@ footer {
   /* transform: rotate(-70deg); */
 }
 .disk__part-4 {
-  display: inline-block;
-  position: relative;
-  top: 5px;
+  /* border: 1px solid red; */
+  /* display: inline-block; */
+  position: absolute;
+  top: 70px;
   left: 65px;
+  /* top: 5px;
+  left: 65px; */
   transform: rotate(-40deg);
 }
 .disk__part-5 {
-  display: inline-block;
-  position: relative;
-  top: -9px;
-  left: -8px;
+  /* display: inline-block; */
+  position: absolute;
+  top: 55px;
+  left: 30px;
   transform: rotate(35deg);
 }
 .part-item-1 {
