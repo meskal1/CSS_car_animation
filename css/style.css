@@ -39,7 +39,7 @@ html {
 body {
   line-height: 1;
   overflow: hidden;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 .wrapper {
   display: flex;
@@ -79,14 +79,11 @@ footer {
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 100%;
-  background: url("../img/road3.jpg");
+  background: url('../img/road3.jpg');
   /*Крутилка фона*/
-  animation: main 5s linear 10s, main 4s linear 15s, main 3.5s linear 19s,
-    main 3s linear 22.5s, main 2.7s linear 25.5s, main 2.5s linear 28.2s,
-    main 2.3s linear 30.7s, main 2s linear 33s, main 1.7s linear 35s,
-    main 1.5s linear 36.7s, main 1.3s linear 38.2s, main 1.1s linear 39.5s,
-    main 1s linear 40.6s, main 0.9s linear 41.6s, main 0.85s linear 42.5s,
-    main 0.8s linear infinite 43.35s;
+  animation: main 5s linear 10s, main 4s linear 15s, main 3.5s linear 19s, main 3s linear 22.5s, main 2.7s linear 25.5s,
+    main 2.5s linear 28.2s, main 2.3s linear 30.7s, main 2s linear 33s, main 1.7s linear 35s, main 1.5s linear 36.7s, main 1.3s linear 38.2s,
+    main 1.1s linear 39.5s, main 1s linear 40.6s, main 0.9s linear 41.6s, main 0.85s linear 42.5s, main 0.8s linear infinite 43.35s;
 }
 @keyframes main {
   100% {
@@ -201,14 +198,11 @@ footer {
   border-radius: 50%;
   background: #1c1b1a;
   z-index: 2;
-  animation: wheel 0.5s linear 10s infinite, wheel 0.4s linear 15s infinite,
-    wheel 0.35s linear 19s infinite, wheel 0.3s linear 22.5s infinite,
-    wheel 0.27s linear 25.5s infinite, wheel 0.25s linear 28.2s infinite,
-    wheel 0.23s linear 30.7s infinite, wheel 0.2s linear 33s infinite,
-    wheel 0.17s linear 35s infinite, wheel 0.15s linear 36.7s infinite,
-    wheel 0.13s linear 38.2s infinite, wheel 0.11s linear 39.5s infinite,
-    wheel 0.1s linear 40.6s infinite, wheel 0.09s linear 41.6s infinite,
-    wheel 0.085s linear 42.5s infinite, wheel 0.08s linear infinite 43.35s;
+  animation: wheel 0.5s linear 10s infinite, wheel 0.4s linear 15s infinite, wheel 0.35s linear 19s infinite,
+    wheel 0.3s linear 22.5s infinite, wheel 0.27s linear 25.5s infinite, wheel 0.25s linear 28.2s infinite,
+    wheel 0.23s linear 30.7s infinite, wheel 0.2s linear 33s infinite, wheel 0.17s linear 35s infinite, wheel 0.15s linear 36.7s infinite,
+    wheel 0.13s linear 38.2s infinite, wheel 0.11s linear 39.5s infinite, wheel 0.1s linear 40.6s infinite,
+    wheel 0.09s linear 41.6s infinite, wheel 0.085s linear 42.5s infinite, wheel 0.08s linear infinite 43.35s;
 }
 @keyframes wheel {
   0% {
@@ -238,14 +232,11 @@ footer {
   border: 1px solid white;
 }
 .disk__circle {
-  /* display: inline-block; */
   display: flex;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* top: -43px;
-  left: -18px; */
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -270,20 +261,14 @@ footer {
   position: relative;
   top: -15px;
   left: -32px;
-  /* transform: rotate(-70deg); */
 }
 .disk__part-4 {
-  /* border: 1px solid red; */
-  /* display: inline-block; */
   position: absolute;
   top: 70px;
   left: 65px;
-  /* top: 5px;
-  left: 65px; */
   transform: rotate(-40deg);
 }
 .disk__part-5 {
-  /* display: inline-block; */
   position: absolute;
   top: 55px;
   left: 30px;
